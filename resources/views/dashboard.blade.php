@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="max-w-6xl mx-auto">
-    <div class="text-center py-12 bg-red-800 rounded-3xl shadow mb-8">
+    <div class="text-center py-12 bg-red-800 rounded-3xl shadow mb-8 px-5">
         <h1 class="text-4xl font-bold text-white mb-2">Selamat Datang, {{ $username ?? 'Sahabat Seni' }}</h1>
         <p class="text-white italic">Seni adalah cermin dari jiwamu, Temukan Shunya-mu.</p>
     </div>
