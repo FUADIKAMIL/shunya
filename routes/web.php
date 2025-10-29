@@ -1,7 +1,7 @@
 <?php
 
-// use Illuminate\Support\Facades\Route;
-// use App\Http\Controllers\PageController;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
 
 // Route::get('/', [PageController::class, 'login'])->name('login');
 // Route::post('/login', function (Illuminate\Http\Request $request) {
