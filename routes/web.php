@@ -12,5 +12,6 @@ Route::get('/', [PageController::class, 'dashboard'])->name('dashboard');
 Route::get('/shunya', [PageController::class, 'shunya'])->name('shunya');
 Route::get('/ticket', [PageController::class, 'ticket'])->name('ticket');
 Route::get('/pengelolaan', [PageController::class, 'pengelolaan'])->name('pengelolaan');
+Route::get('/katalog', [PageController::class, 'katalog'])->name('katalog');
 Route::get('/profile', [PageController::class, 'profile'])->name('profile');
 Route::get('/logout', [PageController::class, 'logout'])->name('logout');
