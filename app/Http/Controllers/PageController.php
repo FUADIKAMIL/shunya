@@ -44,13 +44,13 @@ class PageController extends Controller
     public function shunya()
     {
         $bidang = [
-            ['gambar' => 'images/art/a1.jpg', 'bidang' => 'Seni Rupa', 'jumlah' => '15'],
-            ['gambar' => 'images/art/a1.jpg', 'bidang' => 'Tari', 'jumlah' => '25'],
-            ['gambar' => 'images/art/a1.jpg', 'bidang' => 'Karawitan', 'jumlah' => '7'],
-            ['gambar' => 'images/art/a1.jpg', 'bidang' => 'Musik', 'jumlah' => '7'],
-            ['gambar' => 'images/art/a1.jpg', 'bidang' => 'Penulisan Kreatif', 'jumlah' => '7'],
-            ['gambar' => 'images/art/a1.jpg', 'bidang' => 'Teater', 'jumlah' => '7'],
-            ['gambar' => 'images/art/a1.jpg', 'bidang' => 'Fotografi', 'jumlah' => '7'],
+            ['gambar' => 'images/art/a1.jpg', 'bidang' => 'Seni Rupa', 'karya' => '15', 'instalasi' => '2'],
+            ['gambar' => 'images/art/a1.jpg', 'bidang' => 'Tari', 'karya' => '25', 'instalasi' => '2'],
+            ['gambar' => 'images/art/a1.jpg', 'bidang' => 'Karawitan', 'karya' => '7', 'instalasi' => '2'],
+            ['gambar' => 'images/art/a1.jpg', 'bidang' => 'Musik', 'karya' => '7', 'instalasi' => '2'],
+            ['gambar' => 'images/art/a1.jpg', 'bidang' => 'Penulisan Kreatif', 'karya' => '7', 'instalasi' => '2'],
+            ['gambar' => 'images/art/a1.jpg', 'bidang' => 'Teater', 'karya' => '7', 'instalasi' => '2'],
+            ['gambar' => 'images/art/a1.jpg', 'bidang' => 'Fotografi', 'karya' => '7', 'instalasi' => '2'],
         ];
 
         return view('shunya', compact('bidang'));
