@@ -8,10 +8,6 @@
     <div class="flex items-center gap-5">
         <a href="{{ route('dashboard', ['username' => $username]) }}" class="hover:text-red-600">Home</a>
         <a href="{{ route('shunya', ['username' => $username]) }}" class="hover:text-red-600">Shunya</a>
-        <!-- <a href="{{ route('ticket', ['username' => $username]) }}" class="hover:text-red-600">Ticket</a> -->
-        <a href="{{ route('pengelolaan', ['username' => $username]) }}" class="hover:text-red-600">Karya</a>
-        <!-- <a href="{{ route('profile', ['username' => $username]) }}"> -->
-        <!-- <img src="{{ asset('images/profile.svg') }}" alt="Profile" class="w-4 h-4"> -->
-        <!-- </a> -->
+        <a href="{{ route('katalog', ['username' => $username]) }}" class="hover:text-red-600">Katalog</a>
     </div>
 </nav>
