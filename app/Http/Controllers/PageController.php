@@ -36,18 +36,6 @@ class PageController extends Controller
                            Udah, gausah ditunda-tunda lagi, sekarang ajak besti, hts, atau pasangan kalian buat dateng ke pameran yaaww',
                 'gambar' => 'images/news/n1.jpg',
             ],
-            [
-                'judul' => 'Extend Presale 2 & Paket Bundling',
-                'desk' => 'Jadi, MinKe extend Presale 2 nyaa dan sekarang ada Tiket Bundling lohhh!!
-                           Udah, gausah ditunda-tunda lagi, sekarang ajak besti, hts, atau pasangan kalian buat dateng ke pameran yaaww',
-                'gambar' => 'images/news/n1.jpg',
-            ],
-            [
-                'judul' => 'Extend Presale 2 & Paket Bundling',
-                'desk' => 'Jadi, MinKe extend Presale 2 nyaa dan sekarang ada Tiket Bundling lohhh!!
-                           Udah, gausah ditunda-tunda lagi, sekarang ajak besti, hts, atau pasangan kalian buat dateng ke pameran yaaww',
-                'gambar' => 'images/news/n1.jpg',
-            ],
         ];
 
         return view('dashboard', compact('username', 'news'));
