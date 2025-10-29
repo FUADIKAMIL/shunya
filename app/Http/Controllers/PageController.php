@@ -77,6 +77,32 @@ class PageController extends Controller
         return view('ticket', compact('var'));
     }
 
+    public function katalog()
+    {
+        $var = [
+            [
+                'gambar' => 'images/art/a1.jpg',
+                'judul' => 'The End',
+                'desk' => 'Ini lukisan teh end keren banget waowkakwowwkaokwoa ya kannnnn',
+                'bidang' => 'Seni Rupa',
+            ],
+            [
+                'gambar' => 'images/art/a1.jpg',
+                'judul' => 'Won',
+                'desk' => 'Ini lagu won keren banget anjayy aowkoakowkoakwoka maaanteppp',
+                'bidang' => 'Musik',
+            ],
+            [
+                'gambar' => 'images/art/a1.jpg',
+                'judul' => 'Nang Ning Nung',
+                'desk' => 'Ini keren nang ning nang naning',
+                'bidang' => 'Karawitan',
+            ],
+        ];
+
+        return view('katalog', compact('var'));
+    }
+
     public function profile(Request $request)
     {
         $username = $request->query('username');
