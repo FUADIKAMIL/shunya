@@ -32,8 +32,12 @@
             <img src="{{ asset($item['gambar']) }}" alt="{{ $item['bidang'] }}" class="w-full h-48 object-cover rounded-md mb-3">
             <h3 class="text-lg font-semibold">{{ $item['bidang'] }}</h3>
             <div class="flex">
-                <p class="text-sm text-gray-500">Jumlah Karya:</p>
-                <span class="text-xs bg-red-100 text-red-700 px-2 py-1 rounded">{{ $item['jumlah'] }}</span>
+                <p class="text-sm text-gray-500">Karya:</p>
+                <span class="text-sm text-red-700 ml-2">{{ $item['karya'] }}</span>
+            </div>
+            <div class="flex">
+                <p class="text-sm text-gray-500">Instalasi:</p>
+                <span class="text-sm text-red-700 ml-2">{{ $item['instalasi'] }}</span>
             </div>
         </div>
     @endforeach
