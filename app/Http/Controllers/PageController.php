@@ -83,7 +83,7 @@ class PageController extends Controller
             [
                 'gambar' => 'images/art/a1.jpg',
                 'judul' => 'Cermin Tua di Rumah Ibu',
-                'desk' => 'Cermin sebagai saksi bisu dari kehidupan seorang wanita tua. Coretan gincu yang berupa penggalan puisi di cermin merupakan cerita yang dirasakan oleh wanita itu di akhir kehidupannya. Pemilihan objek cermin dan gincu mempresentasikan stigma masyarakat terkait perempuan. Pandangan masyarakat terhadap perempuan yang harus selalu rapih dan menjaga penampilan diilustrasikan melalui puisi dan instalasi ini.',
+                'desk' => 'Cermin sebagai saksi bisu dari kehidupan seorang wanita tua.\nCoretan gincu yang berupa penggalan puisi di cermin merupakan cerita yang dirasakan oleh wanita itu di akhir kehidupannya. Pemilihan objek cermin dan gincu mempresentasikan stigma masyarakat terkait perempuan. Pandangan masyarakat terhadap perempuan yang harus selalu rapih dan menjaga penampilan diilustrasikan melalui puisi dan instalasi ini.',
                 'bidang' => 'Seni Rupa',
                 'src' => '',
             ],
