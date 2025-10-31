@@ -83,8 +83,7 @@ class PageController extends Controller
             [
                 'gambar' => 'images/art/a1.jpg',
                 'judul' => 'Garis-garis Candu',
-                'desk' => "Garis-Garis Candu /n ............Merah itu menyimpan biji-biji kecil, rapat, seperti gerombolan rahasia konspirasi. Daun-daun tipis ikut menempel, seolah masih mengantongi aroma kering dari terik matahari. Dan setiap langkah perempuan itu, menyeret ingatan akan ladang tembakau yang telah panen dua bulan lalu.
-Pria itu tak menyangka bahwa perempuan itu bisa menggeser arah pernapasannya. Ia terpesona, terus memandang hingga perempuan itu duduk memperlihatkan motif yang tergulung pelan di antara lipatan jeans. Cantik pakaiannya, sederhana, segar, jauh dari kesan kuno dan membuatnya jatuh cinta.................................................................................................",
+                'desk' => "............Merah itu menyimpan biji-biji kecil, rapat, seperti gerombolan rahasia konspirasi.\nDaun-daun tipis ikut menempel, seolah masih mengantongi aroma kering dari terik matahari.\nDan setiap langkah perempuan itu, menyeret ingatan akan ladang tembakau yang telah panen dua bulan lalu.\n\nPria itu tak menyangka bahwa perempuan itu bisa menggeser arah pernapasannya.\nIa terpesona, terus memandang hingga perempuan itu duduk memperlihatkan motif yang tergulung pelan di antara lipatan jeans.\nCantik pakaiannya, sederhana, segar, jauh dari kesan kuno dan membuatnya jatuh cinta.................................................................................................",
                 'bidang' => 'Seni Rupa',
                 'oleh' => 'Ani',
                 'src' => '',
