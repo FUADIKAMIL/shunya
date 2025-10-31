@@ -9,7 +9,7 @@
 <body class="bg-cover bg-center bg-no-repeat min-h-screen flex flex-col text-gray-800 overflow-x-hidden" style="background-image: url('{{ asset('images/bg5.png') }}')">
     <x-navbar />
 
-    <main class="flex-grow w-full max-w-7xl mx-auto px-4 sm:px-6 overflow-y-auto">
+    <main class="flex-grow container mx-auto p-6 overflow-y-auto">
         @yield('content')
     </main>
 
