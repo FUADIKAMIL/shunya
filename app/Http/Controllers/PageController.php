@@ -82,8 +82,9 @@ class PageController extends Controller
         $var = [
             [
                 'gambar' => 'images/art/a1.jpg',
-                'judul' => 'Cermin Tua di Rumah Ibu',
-                'desk' => "Cermin sebagai saksi bisu dari kehidupan seorang wanita tua. \n Coretan gincu yang berupa penggalan puisi di cermin merupakan cerita yang dirasakan oleh wanita itu di akhir kehidupannya. Pemilihan objek cermin dan gincu mempresentasikan stigma masyarakat terkait perempuan. Pandangan masyarakat terhadap perempuan yang harus selalu rapih dan menjaga penampilan diilustrasikan melalui puisi dan instalasi ini.",
+                'judul' => 'Garis-garis Candu',
+                'desk' => "Garis-Garis Candu /n ............Merah itu menyimpan biji-biji kecil, rapat, seperti gerombolan rahasia konspirasi. Daun-daun tipis ikut menempel, seolah masih mengantongi aroma kering dari terik matahari. Dan setiap langkah perempuan itu, menyeret ingatan akan ladang tembakau yang telah panen dua bulan lalu.
+Pria itu tak menyangka bahwa perempuan itu bisa menggeser arah pernapasannya. Ia terpesona, terus memandang hingga perempuan itu duduk memperlihatkan motif yang tergulung pelan di antara lipatan jeans. Cantik pakaiannya, sederhana, segar, jauh dari kesan kuno dan membuatnya jatuh cinta.................................................................................................",
                 'bidang' => 'Seni Rupa',
                 'oleh' => 'Ani',
                 'src' => '',
