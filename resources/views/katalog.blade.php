@@ -3,7 +3,7 @@
 @section('content')
 <h2 class="text-2xl font-bold mb-4 text-center">Katalog Karya</h2>
 
-<div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 w-full max-w-7xl mx-auto px-4">
+<div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 w-full mx-auto px-4">
     @foreach ($var as $item)
         <div class="bg-white px-5 rounded-xl shadow hover:shadow-lg transition py-5 relative">
             <a href="{{ $item['src'] }}">
@@ -19,3 +19,4 @@
     @endforeach
 </div>
 @endsection
+
